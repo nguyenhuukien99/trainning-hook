@@ -31,7 +31,7 @@ function ExampleUseLayoutEffect() {
         </Col>
       </Row>
       <Button onClick={handleCount} type="primary">
-        Clicked
+        Example Use Layout Effect
       </Button>
     </div>
   );

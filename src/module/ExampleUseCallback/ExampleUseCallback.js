@@ -12,13 +12,13 @@ function ExampleUseCallback() {
   const exampleUseCallback = useCallback(() => {}, []);
   return (
     <div>
-      <div className="exampleUseEffect">
+      <div className="exampleUseCallback">
         <h1>ExampleUseCallback.....................</h1>
       </div>
       <h1>Clicked : {count}</h1>
       <Count callback={exampleUseCallback}></Count>
       <Button onClick={handleCount} type="primary">
-        Plus
+        example Use Callback
       </Button>
     </div>
   );

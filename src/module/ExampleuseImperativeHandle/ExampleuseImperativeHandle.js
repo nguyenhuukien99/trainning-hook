@@ -3,6 +3,8 @@ import Content from "./content";
 
 function ExampleuseImperativeHandle() {
   const inputRef = useRef();
+  console.log(inputRef.current);
+
   return (
     <div className="ExampleuseImperativeHandle">
       <h1>ExampleuseImperativeHandle.....................</h1>

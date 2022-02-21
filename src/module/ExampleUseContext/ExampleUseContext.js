@@ -14,12 +14,12 @@ function ExampleUseContext() {
   };
   return (
     <containerContex.Provider value={count}>
-      <div className="exampleUseEffect">
+      <div className="ExampleUseContext">
         <h1>ExampleUseContext.....................</h1>
       </div>
       <Count></Count>
       <Button onClick={handleCount} type="primary">
-        Clicked
+        Example Use Context
       </Button>
     </containerContex.Provider>
   );

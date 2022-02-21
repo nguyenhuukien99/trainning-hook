@@ -20,7 +20,7 @@ function ExampleUseRef() {
     <div className="ExampleUseRef">
       <h1>ExampleUseRef.....................</h1>
       <Button onClick={handleCount} type="primary">
-        Clicked
+        Example Use Ref
       </Button>
       <br></br>
       <input ref={inputRef}></input>
